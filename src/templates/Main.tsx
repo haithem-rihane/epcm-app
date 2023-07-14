@@ -9,49 +9,51 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="w-full px-1 text-gray-700 antialiased">
+  <div className="w-full px-1 text-gray-700 antialiased bg-hero-pattern" dir="rtl">
     {props.meta}
 
-    <div className="mx-auto max-w-screen-md">
-      <header className="border-b border-gray-300">
-        <div className="pb-8 pt-16">
-          <h1 className="text-3xl font-bold text-gray-900">
-            {AppConfig.title}
-          </h1>
-          <h2 className="text-xl">{AppConfig.description}</h2>
-        </div>
+    <div className="mx-auto max-w-screen-lg">
+      <header className="pt-8">
         <nav>
-          <ul className="flex flex-wrap text-xl">
-            <li className="mr-6">
+          <ul className="flex flex-wrap justify-center items-center space-x-11 text-xl rounded-3xl bg-[#F1F1F1] bg-opacity-25 custom-header h-16">
+            <li className="me-10">
               <Link
                 href="/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none text-white hover:text-gray-900"
               >
-                Home
+                تطبيق بصير
               </Link>
             </li>
-            <li className="mr-6">
+            <li className="me-10">
               <Link
                 href="/about/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none text-white hover:text-gray-900"
               >
-                About
+                الاحصائيات
               </Link>
             </li>
-            <li className="mr-6">
+            <li className="me-10">
               <a
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none text-white hover:text-gray-900"
                 href="https://github.com/ixartz/Next-js-Boilerplate"
               >
-                GitHub
+                الكشف
               </a>
             </li>
-            <li className="mr-6">
+            <li className="me-10">
               <Link
                 href="/blog/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none text-white hover:text-gray-900"
               >
-                Blog
+                البلاغات
+              </Link>
+            </li>
+            <li className="me-10">
+              <Link
+                href="/blog/"
+                className="border-none text-white hover:text-gray-900"
+              >
+                الإعدادت
               </Link>
             </li>
           </ul>

@@ -39,6 +39,11 @@ module.exports = {
           900: '#2a4365',
         },
       },
+      backgroundImage: {
+        'hero-pattern': "url('~/public/assets/images/background.png')",
+        'electronic': "url('~/public/assets/images/background_electronic.png')",
+        'degrad': "url('~/public/assets/images/rec.svg')",
+      }
     },
   },
   plugins: [],

@@ -14,7 +14,7 @@ const Meta = (props: IMetaProps) => {
   const router = useRouter();
 
   return (
-    <>
+    <  >
       <Head>
         <meta charSet="UTF-8" key="charset" />
         <meta

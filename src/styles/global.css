@@ -12,10 +12,27 @@ a:hover {
 
 @tailwind utilities;
 
+/* @font-face {
+  font-family: 'Montserrat-Arabic';
+  src: local('Montserrat-Arabic'), url('../../public/assets/fonts/Montserrat-Arabic_Regular_400.otf') format('otf');
+} */
+
 .content p {
   @apply my-6;
 }
 
 .content ul {
   @apply my-6;
+}
+
+/* .custom-header {
+  background: transparent url('../../public/assets/images/header_rec.png') 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+} */
+
+.custom-image {
+  mix-blend-mode: color-dodge;
 }

@@ -15,170 +15,82 @@ const Index = () => {
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      <div className="flex justify-between">
+        <div>
+          <img
+            src={`${router.basePath}/assets/images/socpa_logo.png`}
+            alt="SCOPA"
+          /> 
+          </div>
+        <div>
         <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
-        />
-      </a>
-      <h2 className="text-2xl font-bold">
-        Boilerplate code for your Nextjs project with Tailwind CSS
-      </h2>
-      <p>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a starter code for your Next js project by
-        putting developer experience first .{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
-      </p>
-      <h3 className="text-lg font-semibold">Next js Boilerplate Features</h3>
-      <p>Developer experience first:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="fire">
-            🔥
-          </span>{' '}
-          <a href="https://nextjs.org" rel="nofollow">
-            Next.js
-          </a>{' '}
-          for Static Site Generator
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          Integrate with{' '}
-          <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          PostCSS for processing Tailwind CSS
-        </li>
-        <li>
-          <span role="img" aria-label="tada">
-            🎉
-          </span>{' '}
-          Type checking Typescript
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          Linter with{' '}
-          <a href="https://eslint.org" rel="nofollow">
-            ESLint
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          Code Formatter with{' '}
-          <a href="https://prettier.io" rel="nofollow">
-            Prettier
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          Husky for Git Hooks
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🚫
-          </span>{' '}
-          Lint-staged for running linters on Git staged files
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🗂
-          </span>{' '}
-          VSCode configuration: Debug, Settings, Tasks and extension for
-          PostCSS, ESLint, Prettier, TypeScript
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            🤖
-          </span>{' '}
-          SEO metadata, JSON-LD and Open Graph tags with Next SEO
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            ⚙️
-          </span>{' '}
-          <a
-            href="https://www.npmjs.com/package/@next/bundle-analyzer"
-            rel="nofollow"
-          >
-            Bundler Analyzer
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="rainbow">
-            🌈
-          </span>{' '}
-          Include a FREE minimalist theme
-        </li>
-        <li>
-          <span role="img" aria-label="hundred">
-            💯
-          </span>{' '}
-          Maximize lighthouse score
-        </li>
-      </ul>
-      <p>Built-in feature from Next.js:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="coffee">
-            ☕
-          </span>{' '}
-          Minify HTML &amp; CSS
-        </li>
-        <li>
-          <span role="img" aria-label="dash">
-            💨
-          </span>{' '}
-          Live reload
-        </li>
-        <li>
-          <span role="img" aria-label="white_check_mark">
-            ✅
-          </span>{' '}
-          Cache busting
-        </li>
-      </ul>
-      <h3 className="text-lg font-semibold">Our Stater code Philosophy</h3>
-      <ul>
-        <li>Minimal code</li>
-        <li>SEO-friendly</li>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          Production-ready
-        </li>
-      </ul>
-      <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
-      </p>
+            src={`${router.basePath}/assets/images/epmc_logo.png`}
+            alt="EPMC"
+          />
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="flex flex-col  items-center ">
+          <div className="w-4/6 bg-gradient-to-t from-[#1FA855] rounded-b-3xl">
+            <div className="text-6xl  text-center font-bold text-white">إبـقـاء لنبقى</div>
+            <div className="text-3xl  text-center text-white">الوﺳﻴﻂ الموثوق ﻟﺘﺮﺗﻴﺐ ﺷﺮاﻛﺎت الأﻋﻤﺎل اﻟــﺘـﺠـﺎرﻳــﺔ وتـبادلـــها بـســهولـة وسلاســة</div>        
+          </div>
+        </div>
+      </div>
+      <div className="bg-degrad rounded-3xl pb-10">
+        <div className="flex flex-row pt-12">
+          <div className="w-1/3"></div>
+          <div className="w-1/3 flex items-center justify-center">
+            <button className="bg-[#cba13a] w-64 h-16 hover:bg-blue-700 text-white text-3xl shadow-lg shadow-black font-bold py-2 px-4 rounded-full">
+              ابدأ الآن
+            </button>
+          </div>
+          <div className="w-1/3">          
+            {/* <img
+              className=""
+              src={`${router.basePath}/assets/images/palm.png`}
+              alt="EPMC"
+            /> */}
+          </div>
+        </div>
+        <div className="flex flex-col mt-10 justify-center">
+          <div className="">
+              <img
+                className="custom-image"
+                src={`${router.basePath}/assets/images/poster-movie-science-fiction.png`}
+                alt="EPMC"
+              />
+          </div> 
+          <div className="flex items-center justify-center">
+            <div className="w-3/6 border-2 border-solid border-white rounded-3xl">
+                <p className="text-white text-center ">
+                منصة إبقاء: تواصل بين البائع والمستثمر للعثور على شريك ومنشأة للاستحواذ بأمان وتوفير تمويل. تتطلب منشآت غير متعثرة وبيانات دقيقة وسرية. تعرض المعلومات للمستثمرين والراغبين في الاستحواذ. تقلل التكاليف وتسرع العملية
+                </p>
+            </div>
+          </div>
+          <div className="flex justify-center mt-10">
+              <p className="text-white text-5xl font-bold">وجهتك لتجارة دائمة</p>
+          </div>
+        
+        </div>
+        <div className="flex flex-row pt-12">
+          <div className="w-2/4">
+          <img
+                className="mix-blend-multiply"
+                src={`${router.basePath}/assets/images/arrow.png`}
+                alt="EPMC"
+              />
+          </div>
+          <div className="w-2/4 ">
+          <img
+                className="opacity-100"
+                src={`${router.basePath}/assets/images/phone.png`}
+                alt="EPMC"
+              />
+          </div>
+        </div>
+        </div>
+        
     </Main>
   );
 };
